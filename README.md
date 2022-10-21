@@ -18,5 +18,5 @@ A project on image style identification via various approaches from computer vis
 ### Notes
 
 The project is named after Hippolyte Taine — a French historian, critic, and philosopher from the 19th century.
-In his Philosophie de l'art book he considers an artwork not as a self-contained message, but rather as a representative of a bigger cluster of artist's creations characterized by his style.
+In his *Philosophie de l'art* book he considers an artwork not as a self-contained message, but rather as a representative of a bigger cluster of artist's creations characterized by his style.
 That cluster, in turn, is a part of a bigger group of artworks sharing a common epoch and region. And further those groups are a part of human art history.
