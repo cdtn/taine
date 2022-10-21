@@ -1,3 +1,6 @@
 [submodule "batchflow"]
 	path = batchflow
 	url = https://github.com/analysiscenter/batchflow.git
+[submodule "open-metric-learning"]
+	path = open-metric-learning
+	url = https://github.com/OML-Team/open-metric-learning.git
