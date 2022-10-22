@@ -7,7 +7,7 @@ A project on image style identification via various approaches from computer vis
 2. [Vanilla logistic regression](notebooks/01_LOGISTIC.ipynb)
 1. [VGG7, Cross-Entropy](notebooks/02_VGG.ipynb)
 1. [EfficientNet_B2 pretrained on ImageNet, fine-tuned via TripletLoss](notebooks/03_EFFICIENTNET.ipynb)
-1. [VGG7 embeddings + PCA + KMeans clustering](notebooks/04_KMeans.ipynb)
+1. [VGG7 embeddings + PCA + KMeans clustering](notebooks/04_KMEANS.ipynb)
 1. [VGG7 embeddings + PCA + LGBM](notebooks/05_LGBM.ipynb)
 1. [Models metrics comparison](notebooks/06_SUMMARY.ipynb)
 
