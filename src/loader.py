@@ -3,8 +3,8 @@ import os
 import numpy as np
 
 from skimage.io import imread
-from sklearn.preprocessing import LabelEncoder
 from skimage.transform import resize
+from sklearn.preprocessing import LabelEncoder
 
 from batchflow import Dataset, ImagesBatch, Notifier, plot
 

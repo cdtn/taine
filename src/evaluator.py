@@ -171,8 +171,10 @@ class MetricsEvaluator:
             Used for colormap lower and upper limits calculation.
         """
         self.plot_confusion_matrix(**kwargs) # FIXME: matrix is displayed when `show=False`
-        classwise_metrics = self.evaluate_classwise_metrics(names=classwise, show=show, cmap=cmap, vmin=vmin, vmax=vmax)
-        altogether_metrics = self.evaluate_altogether_metrics(names=altogether, show=show, cmap=cmap, vmin=vmin, vmax=vmax)
+        classwise_metrics = self.evaluate_classwise_metrics(names=classwise, show=show, cmap=cmap,
+                                                            vmin=vmin, vmax=vmax)
+        altogether_metrics = self.evaluate_altogether_metrics(names=altogether, show=show, cmap=cmap,
+                                                              vmin=vmin, vmax=vmax)
         all_metrics = {**classwise_metrics, **altogether_metrics}
 
         if savepath is not None:

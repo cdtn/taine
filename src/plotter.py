@@ -1,10 +1,11 @@
+""" Visualization utils. """
 import numpy as np
 from batchflow import plot
 
 
 
 def plot_notifier_curve(ax, index, x, y, container, notifier, frequency, **kwargs):
-    """ !!. """
+    """ Custom plotting method called inside `batchflow.Notifier` that handles multiple overlayed curves display. """
     _ = index, x, container, notifier
 
     if len(y.shape) == 1 or y.shape[1] == 1:
