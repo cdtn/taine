@@ -3,17 +3,23 @@
 A project on image style identification via various approaches from computer vision field.
 
 ## Contents
-1. [Data overview](notebooks/00_ANALYSIS.ipynb)
-2. [Vanilla logistic regression](notebooks/01_LOGISTIC.ipynb)
-1. [VGG7, Cross-Entropy](notebooks/02_VGG.ipynb)
-1. [EfficientNet_B2 pretrained on ImageNet, fine-tuned via TripletLoss](notebooks/03_EFFICIENTNET.ipynb)
-1. [VGG7 embeddings + PCA + KMeans clustering](notebooks/04_KMEANS.ipynb)
-1. [VGG7 embeddings + PCA + LGBM](notebooks/05_LGBM.ipynb)
-1. [Models metrics comparison](notebooks/06_SUMMARY.ipynb)
+0. [Data overview](notebooks/00_ANALYSIS.ipynb)
+1. [Vanilla logistic regression](notebooks/01_LOGISTIC.ipynb)
+2. [VGG7, Cross-Entropy](notebooks/02_VGG.ipynb)
+3. [VGG7 embeddings + PCA + KMeans clustering](notebooks/03_VGG+KMEANS.ipynb)
+4. [VGG7 embeddings + PCA + LGBM](notebooks/04_VGG+LGBM.ipynb)
+5. [EfficientNet_B2 pretrained on ImageNet, fine-tuned via TripletLoss](notebooks/05_EFFICIENTNET.ipynb)
+6. [EfficientNet_B2 embeddings + PCA + TSNE](notebooks/06_EFFICIENTNET+TSNE.ipynb)
+7. [EfficientNet_B2 embeddings + PCA + KNN](notebooks/07_EFFICIENTNET+KNN.ipynb)
+8. [Models metrics comparison](notebooks/08_SUMMARY.ipynb)
 
 ## Metrics comparison
 
 ![report](report/report.png)
+
+## Cluster separability illustration
+
+![report](report/tsne.png)
 
 ### Notes
 
